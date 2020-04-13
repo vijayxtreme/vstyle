@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: `Vijay Menon | Full Stack Developer`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    description: `Portfolio site for Vijay Menon, Full Stack Developer from Southern California.  Specializing in PHP and JavaScript, with expertise in Wordpress, Drupal, JavaScript, JQuery, React, Angular, Node.js, MongoDB, Python, Django.  Head Organizer for JavaScriptLA - A Meetup Group in Southern California for JavaScript developers with over 4000 members.`,
+    author: `@vijayxtreme`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

@@ -3,7 +3,7 @@ import PropTypes from "prop-types"
 import React from "react"
 
 const Header = ({ siteTitle }) => (
-  <header style={{
+  <header className="clearfix" style={{
      backgroundColor: `black`
   }}>
     <div
@@ -24,8 +24,11 @@ const Header = ({ siteTitle }) => (
           {siteTitle}
         </Link>
       </h1>
-      <ul>
+      <ul className="desktop-menu">
+        <li><Link style={{color:`white`}} to="/">Home</Link></li>
         <li><Link style={{color:`white`}} to="about">About</Link></li>
+        <li><Link style={{color:`white`}} to="experience">Experience</Link></li>
+        <li><Link style={{color:`white`}} to="contact">Contact</Link></li>
       </ul>
     </div>
   </header>

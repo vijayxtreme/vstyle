@@ -3,21 +3,33 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-
 const ExperiencePage = () => {
 
     let createLayout = arr => {
-        return arr.map((item, idx)=>{
-            return (
-                <div key={idx}><a target="_blank" href={`https://${item.link}`}>{item.title}</a></div>
-            )
-        })
+        let output = []
+
+        arr.forEach((item, idx)=>{
+            if((idx+1) % 4 == 0){
+                output.push(
+                    <div key={idx} className="row"></div>
+                )
+            }else{
+                output.push(
+                    <div className="col" key={idx}><a target="_blank" href={`https://${item.link}`}>{item.title}</a></div>
+                )
+            }
+        });
+        return output
+
     }
+
     
     const radnetWebsites = [
         {title:"RadNet.com & All Location Sites", link:"radnet.com"},
         {title:"Rad.Link", link:"rad.link"},
         {title:"Prostate MRI", link:"mri.rcg.ninja"},
+        {title:"RadNet Choice", link:"choice.radnet.com"},
+        {title:"RadNetTV", link:"radnet.tv"},
         {title:"Breastlink", link:"newyork.breastlink.com"},
         {title:"40not50", link:"40not50.org"},
         {title:"CRC", link:"cancerresearchcollaboration.org"},
@@ -52,10 +64,10 @@ const ExperiencePage = () => {
                 </p>
                 <p>Responsible for full stack web development for RadNet (Medical diagnostic imaging centers and cancer research) in Santa Ana, California.</p>
                 <p>My primary responsibilities are to design and develop websites, landing pages that help promote RadNet imaging technologies, research and applications that interface with RadNet customers.   Technologies used include CMS websites like Drupal, Wordpress on the LAMP Stack (Linux, Apache, MySQL, PHP), and Oracle APEX.   In addition, HTML, CSS/SASS/LESS, JavaScript, JQuery, React, Angular, Node.js for faster UI & improved performance on both the CMS and front end layers.   Work with tools like Photoshop, Illustrator and Sketch to generate new ideas and landing pages.</p>
-                <p>
+                <div>
                     <strong>Websites Include:</strong>
-                    {radnetOutput}
-                </p>
+                    <div className="grid">{radnetOutput}</div>
+                </div>
                 <ul>
                     <li>Built websites primarily on Drupal 7 & Drupal 8, currently building sites on Drupal 8 with GatsbyJS, seeing improved performance on UI and speed</li>
                     <li>Migrated 12 franchise sites to AWS from Pantheon; giving us more control over stacks (can now use MERN stack, MEAN stack) as well as control over application security and lower hosting expenses</li>
@@ -69,10 +81,10 @@ const ExperiencePage = () => {
                     <br />May 2015 - Nov 2016
                 </p>
                 <p>Developed desktop and responsive websites for Budget Van Lines, a moving company in Los Angeles for households and apartments.  Technologies used included Zend, Laravel (on backend) and HTML, CSS, JavaScript, JQuery on frontend.   Additionally worked with JQuery plugins, Greensock API, Wordpress and Gulp/Grunt/Bower to make sites more performant and employ better UI.   Worked with tools like Photoshop, Illustrator and Sketch to generate new ideas and landing pages.</p>
-                <p>
+                <div>
                     <strong>Websites Include:</strong>
-                    {budgetOutput}
-                </p>
+                    <div className="grid">{budgetOutput}</div>
+                </div>
                 <ul>
                     <li>Landing pages that I designed helped generate new traffic and sales for Budget Van Lines, allowing our department to hire more workers and build new websites like Uload, Equate, iMover.   The landing pages reduced the amount of steps from previous landing pages to help get customers quickly over to contacting sales instead of struggling with the UI.</li>
                     <li>Used the latest in JQuery and CSS3 Animations to make websites that were fast, performant and interactive for the customer (improvements included custom datepickers, improved cost calculators, Google Maps integration, and less loading time per pages; we improved our page score and rank on Google as a result).</li>

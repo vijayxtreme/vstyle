@@ -662,8 +662,24 @@ header h1 {
   display: inline;
   color: white;
 }
+.grid {
+  margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 16px;
+  margin-bottom: 1rem;
+  padding-left: 1.5rem;
+}
 
-@media only screen and (max-width: 580px) {
+.row {
+  width: 100%;
+}
+
+.col {
+  width: 33%;
+}
+
+@media only screen and (max-width: 720px) {
   html {
     font-size: 100%;
   }
@@ -680,5 +696,14 @@ header h1 {
     text-align:center;
     padding-bottom: 0;
     margin-bottom: 0;
+  }
+}
+
+@media only screen and (max-width: 520px) {
+  .grid {
+    display: block;
+  }
+  .col {
+    width: 100%;
   }
 }

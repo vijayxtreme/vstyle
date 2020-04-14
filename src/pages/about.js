@@ -28,8 +28,16 @@ const AboutPage = () => {
             <h3 style={{textAlign:`center`}}>Learn To Code With Me!</h3>
             <p>Are you interested in becoming a better web developer?  Do you want to LEVEL UP YOUR PROGRAMMING SKILLS?   Come join myself, and thousands of other members at <a href="https://javascriptla.net" target="_blank">JavaScriptLA</a>, a meetup group originally in Southern California, but now available ONLINE to everyone around the world. </p>
             <p>All you have to do is sign up to join our mailing list on the <a href="https://javascriptla.net" target="_blank">JavaScriptLA</a> homepage, and we will then send you emails on the latest meetup announcements.   You can join us via the web link we send out to our attendees (normally Zoom, WebEx or Google Meet), and basically like a real meetup, watch, interact and raise your hand to ask questions.   We also chat regularly with each other to discuss new technologies (since JavaScript is always moving at breakneck speeds) on <a href="https://discord.gg/WMBTHXx" target="_blank">Discord</a> and <a href="http://javascriptla.herokuapp.com/" target="_blank">Slack</a>.</p>  
-            <p>I personally offer tutorials through blog posts, meetups, Slides.com, books on Amazon, Udemy, YouTube, and am around for 1:1 Coaching / Mentorship.   Here are some of the tutorials I completed over the last year available for you to check out:</p>
-            <p>You can request 1:1 Coaching / Mentorship from me via the Contact Page, and if I have the availability I will definitely help you out.   Sometimes due to workload, there may be a waiting list involved, but I will do my best to help you especially if I hear more about your situation.   Coding can be tough, but it’s fun when you learn with a mentor who can help you fast-track your results!</p>
+            <p>I personally offer tutorials through <a href="https://javascriptla.net/blog/guide-to-react-part-i/" target="_blank">blog posts</a>, <a href="https://meetup.com/javascriptla" target="_blank">meetups</a>, <a href="https://slides.com/javascriptla" target="_blank">Slides.com</a>, books on <a href="https://amzn.to/2RC91AX" target="_blank">Amazon</a>, <a href="https://hackbuddy.teachable.com/p/roadmap-to-es6" target="_blank">Teachable</a>, <a href="https://youtube.com/javascriptla" target="_blank">YouTube</a>, and am around for 1:1 Coaching / Mentorship. </p>
+            <h4>Here Are Some Talks/Presentations I've Given Over The Years</h4>
+            <ul>
+                <li><a href="https://www.youtube.com/watch?v=T9xHk8uNjSg&list=PLzVJ4BkY_MBDdsRI9GaKNDq3Gsfv41o14" target="_blank">YouTube Guide To ES6 Playlist</a></li>
+                <li><a href="https://slides.com/javascriptla/guide-to-es6" target="_blank">Guide To ES6 (2020) at Farmers Insurance</a></li>
+                <li><a href="https://slides.com/javascriptla/deck" target="_blank">Angular Deep Dive (2019) at Farmers Insurance</a></li>
+                <li><a href="https://slides.com/javascriptla/react-redux" target="_blank">Intro to React & Redux</a></li>
+                <li><a href="https://www.youtube.com/watch?v=CTRke-_WxUM" target="_blank">How To Use React (2015) at General Assembly</a></li>
+            </ul>
+            <p>You can request 1:1 Coaching / Mentorship from me via the <Link to="contact">Contact Page</Link>, and if I have the availability I will definitely help you out.   Sometimes due to workload, there may be a waiting list involved, but I will do my best to help you especially if I hear more about your situation.   Coding can be tough, but it’s fun when you learn with a mentor who can help you fast-track your results!</p>
         </section>
       </Layout>
     )

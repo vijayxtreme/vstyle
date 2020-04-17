@@ -75,6 +75,38 @@ const IndexPage = () => (
 
       <p style={{textAlign: `left`}}>To wrap up, ultimately when you are working -- you need to ask yourself from time to time, are you just making noise, and if you are how do you become the signal?  It's really important because people pay attention to signals, not noise.  I know that's really hard to do, but hey it is possible for anyone.  Remember Michael Jackson could have just been another Motown singer, but it was this concept that made him Michael Jackson instead.</p>
       </div>
+      <div>
+      <h4>Build Degrees of Complexity</h4>
+
+      <p>To really succeed in life, you can't be happy with a couple of skills you have right now. It's great that you worked really hard for them, especially if you are like me, someone who went to college, got a degree and expected to be set up for life after "4 years of hard work".</p>  
+
+      <p>I always think of how stupid I must sound to someone else when I tell them I graduated from college with a degree.  Yet, as a young 20 something I expected people to think I was somehow in a higher place in life than they were; I was educated compared to someone who might be working in a grocery store bagging groceries.</p> 
+
+      <p>The truth is, I've worked for people who've never gone to college and somehow ended up being my boss or my boss' boss.  One guy I used to look down on is now a certified multi-millionaire.  In fact the last 10 years of my life have just been one bitter truth pill after another.</p> 
+
+      <p>I would think, how the *&^% did this person get ahead of me in life? I just don't get it! I'm supposed to be smarter than them but they totally kicked my ass.  What is it they have that I don't?</p>  
+
+      <p>The answer is degrees of complexity.  While I was thinking I was so great for having a college degree, that low level grocery bagger was studying hard at night to acquire new, useful skills that could make he or she money; and right now.  While I was spending nights feeling sorry for myself that no one cared about how smart I was and how I couldn't get a raise even after years of working "hard"; this other person networked hard and made great new connections and take opportunities that I never did.</p>  
+
+      <p>When I started feeling like I needed to work harder, this person had already learnt most everything I learned in college, and more and could be the boss.   Suddenly I was working for this person.  And then I was mad, because they were ahead, so I kept focusing my anger at them instead of on myself.  That didn't matter to them, in fact, they kept adding more degrees of complexity -- next they wanted to make their first million, so they began hustling very hard (to the point I'd be really tired and exhausted).  They built the stamina to keep going, (one more layer of complexity I didn't have), and in a few years they were able to sell a side company they were working on for their first million.  Meanwhile, I was still upset because I had been working 5 years and was still at the same salary and suddenly realizing my skills might soon be outdated; I'd probably need to go back to school!</p>  
+
+      <p>As I continued to watch this other person sail ahead, I realized in the end I was the uneducated one.  And then I realized, I couldn't compete with them anymore.  They had something I didn't have -- I had the college degree, but they had degrees of complexity. In the end, it's not about your college degree, it's about the degree of how much value you can create for yourself with the time you have.  Use degrees of complexity to help you succeed and win the big prizes in life.</p>
+      </div>
+  <div>
+    <h4>Take the Initiative -- Because You Are Your Greatest Investor</h4>
+
+    <p>This is a core principle of mine.  I have to remind myself quite often that if I have a good idea, it doesn't matter to others all that much -- most often they'll view it as noise; even if they are my friend or my family member.</p>
+
+    <p>A lot of times in the past, I'd feel really discouraged if I didn't get any feedback on my idea.  Heck even now, if I post to Instagram a cool picture of myself or some awesome thing I did over the weekend only to get 1 or 2 likes -- one from myself and one from my mom, I feel like I failed and probably should just take down the post.</p>
+
+    <p>Yet, it's on me to keep going.  If I stop and give up, then I'm never going to get better.</p>  
+
+    <p>This is how I feel right now about my journey with data structures and algorithms, as well as learning to design.  I feel inferior to a lot of people who are already great; why should I even bother continuing on?</p>
+
+    <p>The reason for going on is because I'm my greatest investor.  I may not have money, but I do have time and love for myself.  Those are good investments, and so long as I put in the time and love for myself, my work -- I'll be able to keep getting better, and it becomes one extra degree of complexity I can use for later to make jumps others won't be able to.   So from that perspective, it's worth it.</p>  
+
+    <p>Today it might be stupid, but take the initiative -- no one else is going to own something like you do, and so long as you keep at it, it'll get better.   Jeff Bezos made Amazon.com in his garage in 1993 and worked at it for near 30 years; now he's the richest guy in the world.  Dial in and start taking initiative to do things, and you will eventually get others noticing the signal, wanting to help out, then you realize your investment wasn't so stupid; in fact it's paying off big time!  You are your greatest investor.</p> 
+  </div>
     </section>
     </Layout>
 )

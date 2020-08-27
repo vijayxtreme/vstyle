@@ -27,7 +27,7 @@ const ExperiencePage = () => {
     const radnetWebsites = [
         {title:"RadNet.com & All Location Sites", link:"radnet.com"},
         {title:"Rad.Link", link:"rad.link"},
-        {title:"Prostate MRI", link:"mri.rcg.ninja"},
+        {title:"Prostate MRI", link:"prostate.radnet.com"},
         {title:"RadNet Choice", link:"choice.radnet.com"},
         {title:"RadNetTV", link:"radnet.tv"},
         {title:"Breastlink", link:"newyork.breastlink.com"},

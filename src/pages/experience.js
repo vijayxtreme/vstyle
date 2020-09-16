@@ -25,11 +25,16 @@ const ExperiencePage = () => {
 
     
     const radnetWebsites = [
-        {title:"RadNet.com & All Location Sites", link:"radnet.com"},
+        {title:"Arizona Diagnostic Radiology", link:"arizonadiagnosticradiology.com"},
         {title:"Rad.Link", link:"rad.link"},
-        {title:"Prostate MRI", link:"prostate.radnet.com"},
+        {title:"Prostate@RadNet", link:"prostate.radnet.com"},
+        {title:"Applications RadNet", link:"applications.radnet.com"},
         {title:"RadNet Choice", link:"choice.radnet.com"},
+        {title:"APACF", link:"apacf.org"},
         {title:"RadNetTV", link:"radnet.tv"},
+        {title:"RadNet.com & All Location Sites", link:"radnet.com"},
+        {title:"RadNet Imaging", link:"radnetimaging.com/here-for-you"},
+        {title:"Wave Imaging", link:"waveimagingnetwork.com"},
         {title:"Breastlink", link:"newyork.breastlink.com"},
         {title:"40not50", link:"40not50.org"},
         {title:"CRC", link:"cancerresearchcollaboration.org"},
@@ -37,8 +42,6 @@ const ExperiencePage = () => {
         {title:"BreastCare", link:"breastcare.com"},
         {title:"RadNetPip", link:"pip.radnet.com"},
         {title:"Imaging Specialists", link:"imagingspecialists.com"},
-        {title:"APACF", link:"apacf.org"},
-        {title:"Applications RadNet", link:"applications.radnet.com"},
     ]
 
     const budgetWebsites = [
@@ -64,16 +67,11 @@ const ExperiencePage = () => {
                     <br />Nov 2016 - Present
                 </p>
                 <p>Responsible for full stack web development for RadNet (Medical diagnostic imaging centers and cancer research) in Santa Ana, California.</p>
-                <p>My primary responsibilities are to design and develop websites, landing pages that help promote RadNet imaging technologies, research and applications that interface with RadNet customers.   Technologies used include CMS websites like Drupal, Wordpress on the LAMP Stack (Linux, Apache, MySQL, PHP), and Oracle APEX.   In addition, HTML, CSS/SASS/LESS, JavaScript, JQuery, React, Angular, Node.js for faster UI & improved performance on both the CMS and front end layers.   Work with tools like Photoshop, Illustrator and Sketch to generate new ideas and landing pages.</p>
+                <p>My primary responsibilities are to design and develop websites, landing pages that help promote RadNet imaging technologies, research and applications that interface with RadNet customers.   Technologies utilized include: HTML5, CSS3/SASS, JavaScript, JQuery, React, Angular on the front end.  Great with tools for prototyping including Illustrator, Photoshop, Sketch and XD.  In addition, for backend: Drupal 7 and Drupal 8, Wordpress with the LAMP Stack (Linux, Apache, MySQL, PHP), MERN stack: MongoDB/Node.js/Express as well as legacy stacks like Oracle SQL/APEX. AWS/Cloud Expertise, migrated RadNet stack from GoDaddy and Pantheon to EC2, S3, and have helped company save over $200K/yearly.</p>
                 <div>
                     <strong>Websites Include:</strong>
                     <div className="grid">{radnetOutput}</div>
                 </div>
-                <ul>
-                    <li>Built websites primarily on Drupal 7 & Drupal 8, currently building sites on Drupal 8 with GatsbyJS, seeing improved performance on UI and speed</li>
-                    <li>Migrated 12 franchise sites to AWS from Pantheon; giving us more control over stacks (can now use MERN stack, MEAN stack) as well as control over application security and lower hosting expenses</li>
-                    <li>Helped migrate 16 location sites to RadNet.com from Wordpress to one Drupal instance on Acquia Cloud, to save company on hosting expenses, upcharges</li>
-                </ul>
             </section>
             <section>
                 <p>

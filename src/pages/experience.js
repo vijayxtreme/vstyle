@@ -60,6 +60,10 @@ const ExperiencePage = () => {
         <Layout>
             <SEO title="Experience"/>
             <section>
+                <h2>Download A Resume</h2>
+                <a href="https://docs.google.com/document/d/1P4o4uG0pgdirTWxu_5-2Buxg5UC36mXJRtFZMxQC7w4/edit?usp=sharing">Download PDF</a>
+            </section>
+            <section>
                 <h3 style={{textAlign:`center`}}>Work Experience</h3>
                 <p>
                     <strong>Web Developer, RadNet.com</strong>
@@ -67,7 +71,7 @@ const ExperiencePage = () => {
                     <br />Nov 2016 - Present
                 </p>
                 <p>Responsible for full stack web development for RadNet (Medical diagnostic imaging centers and cancer research) in Santa Ana, California.</p>
-                <p>My primary responsibilities are to design and develop websites, landing pages that help promote RadNet imaging technologies, research and applications that interface with RadNet customers.   Technologies utilized include: HTML5, CSS3/SASS, JavaScript, React, Angular, Vue on the front end.  For backend:  MongoDB/Node.js/Express as well as legacy stacks like: PHP, Drupal 7/8, Wordpress, Laravel, Ruby on Rails, Oracle SQL/APEX. DevOps Experience: AWS, Mongo Cloud, Azure, migrated RadNet stack from GoDaddy and Pantheon on EC2, S3, Lambda and Amplify. Great with tools for prototyping including Illustrator, Photoshop, Sketch, XD.  Familiar with SCRUM/Agile methodology, use Kanban style JIRA/Trello for project management. </p>
+                <p>My primary responsibilities are to design and develop websites, landing pages that help promote RadNet imaging technologies, research and applications that interface with RadNet customers.   Technologies utilized include: HTML5, CSS3/SASS, Bootstrap (and equivalent), JavaScript, JQuery, D3, React, Angular, Vue on the front end.  For backend:  MongoDB/Node.js/Express as well as legacy stacks like: PHP, Drupal 7/8, Wordpress, Laravel, Ruby on Rails, Oracle SQL/APEX. DevOps Experience: AWS, Mongo Cloud, Azure, migrated RadNet stack from GoDaddy and Pantheon on EC2, S3, Lambda and Amplify. Great with tools for prototyping including Illustrator, Photoshop, Sketch, XD.  Familiar with SCRUM/Agile methodology, use Kanban style JIRA/Trello for project management. </p>
                 <div>
                     <strong>Websites Include:</strong>
                     <div className="grid">{radnetOutput}</div>

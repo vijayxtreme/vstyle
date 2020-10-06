@@ -61,7 +61,7 @@ const ExperiencePage = () => {
             <SEO title="Experience"/>
             <section>
                 <h2>Download A Resume</h2>
-                <a href="https://docs.google.com/document/d/1P4o4uG0pgdirTWxu_5-2Buxg5UC36mXJRtFZMxQC7w4/edit?usp=sharing">Download PDF</a>
+                <a href="https://docs.google.com/document/d/1ZOmuCrBLP47RVTn4gcDXcm4XkVa3qlF7EtM6sBJOVe0/edit?usp=sharing" target="_blank">Download PDF</a>
             </section>
             <section>
                 <h3 style={{textAlign:`center`}}>Work Experience</h3>

@@ -67,7 +67,7 @@ const ExperiencePage = () => {
                     <br />Nov 2016 - Present
                 </p>
                 <p>Responsible for full stack web development for RadNet (Medical diagnostic imaging centers and cancer research) in Santa Ana, California.</p>
-                <p>My primary responsibilities are to design and develop websites, landing pages that help promote RadNet imaging technologies, research and applications that interface with RadNet customers.   Technologies utilized include: HTML5, CSS3/SASS, JavaScript, JQuery, React, Angular on the front end.  Great with tools for prototyping including Illustrator, Photoshop, Sketch and XD.  In addition, for backend: Drupal 7 and Drupal 8, Wordpress with the LAMP Stack (Linux, Apache, MySQL, PHP), MERN stack: MongoDB/Node.js/Express as well as legacy stacks like Oracle SQL/APEX. AWS/Cloud Expertise, migrated RadNet stack from GoDaddy and Pantheon to EC2, S3, and have helped company save over $200K/yearly.</p>
+                <p>My primary responsibilities are to design and develop websites, landing pages that help promote RadNet imaging technologies, research and applications that interface with RadNet customers.   Technologies utilized include: HTML5, CSS3/SASS, JavaScript, React, Angular, Vue on the front end.  For backend:  MongoDB/Node.js/Express as well as legacy stacks like: PHP, Drupal 7/8, Wordpress, Laravel, Ruby on Rails, Oracle SQL/APEX. DevOps Experience: AWS, Mongo Cloud, Azure, migrated RadNet stack from GoDaddy and Pantheon on EC2, S3, Lambda and Amplify. Great with tools for prototyping including Illustrator, Photoshop, Sketch, XD.  Familiar with SCRUM/Agile methodology, use Kanban style JIRA/Trello for project management. </p>
                 <div>
                     <strong>Websites Include:</strong>
                     <div className="grid">{radnetOutput}</div>
@@ -79,7 +79,7 @@ const ExperiencePage = () => {
                     <br />Los Angeles, California
                     <br />May 2015 - Nov 2016
                 </p>
-                <p>Developed desktop and responsive websites for Budget Van Lines, a moving company in Los Angeles for households and apartments.  Technologies used included Zend, Laravel (on backend) and HTML, CSS, JavaScript, JQuery on frontend.   Additionally worked with JQuery plugins, Greensock API, Wordpress and Gulp/Grunt/Bower to make sites more performant and employ better UI.   Worked with tools like Photoshop, Illustrator and Sketch to generate new ideas and landing pages.</p>
+                <p>Developed desktop and responsive websites for Budget Van Lines, a moving company in Los Angeles for households and apartments.  Technologies used included Zend, Laravel (on backend) and HTML, CSS, JavaScript, JQuery on frontend.   Additionally worked with JQuery plugins, D3.js, Greensock API, Wordpress and Gulp/Grunt/Bower to make sites more performant and employ better UI.   Worked with tools like Photoshop, Illustrator and Sketch to generate new ideas and landing pages.</p>
                 <div>
                     <strong>Websites Include:</strong>
                     <div className="grid">{budgetOutput}</div>

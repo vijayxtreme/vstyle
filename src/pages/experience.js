@@ -27,6 +27,7 @@ const ExperiencePage = () => {
     const radnetWebsites = [
         {title:"Arizona Diagnostic Radiology", link:"arizonadiagnosticradiology.com"},
         {title:"Rad.Link", link:"rad.link"},
+        {title: "Walk-In X-Rays", link: "radnetimaging.com/walk-ins"},
         {title:"Prostate@RadNet", link:"prostate.radnet.com"},
         {title:"Applications RadNet", link:"applications.radnet.com"},
         {title:"RadNet Choice", link:"choice.radnet.com"},

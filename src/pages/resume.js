@@ -17,7 +17,7 @@ const ExperiencePage = () => {
                 )
             }else{
                 output.push(
-                    <div className="col" key={idx}><a target="_blank" href={`https://${item.link}`}>{item.title}</a></div>
+                    <div className="col-md-4" key={idx}><a target="_blank" href={`https://${item.link}`}>{item.title}</a></div>
                 )
             }
         });
@@ -69,26 +69,31 @@ const ExperiencePage = () => {
             <section>
                 <h3 style={{textAlign:`center`}}>Work Experience</h3>
                 <p>
-                    <strong>Web Developer, RadNet.com</strong>
+                    <strong>Web Developer, <a href="https://radnet.com" target="_blank">RadNet.com</a></strong>
                     <br />Orange County, California
                     <br />Nov 2016 - Present
                 </p>
-                <p>Responsible for full stack web development for RadNet (Medical diagnostic imaging centers and cancer research) in Santa Ana, California.</p>
-                <p>My primary responsibilities are to design and develop websites, landing pages that help promote RadNet imaging technologies, research and applications that interface with RadNet customers.   Technologies utilized include: HTML5, CSS3/SASS, Bootstrap (and equivalent), JavaScript, JQuery, D3, React, Angular, Vue on the front end.  For backend:  MongoDB/Node.js/Express as well as legacy stacks like: PHP, Drupal 7/8, Wordpress, Laravel, Ruby on Rails, Oracle SQL/APEX. DevOps Experience: AWS, Mongo Cloud, Azure, migrated RadNet stack from GoDaddy and Pantheon on EC2, S3, Lambda and Amplify. Great with tools for prototyping including Illustrator, Photoshop, Sketch, XD.  Familiar with SCRUM/Agile methodology, use Kanban style JIRA/Trello for project management. </p>
+                <p>Responsible for full stack web development for <a href="https://radnet.com" target="_blank">RadNet</a> (NYSE: <a href="https://finance.yahoo.com/quote/RDNT" target="_blank">RDNT</a>) (Diagnostic imaging centers and research) in Santa Ana, California.</p>
+                <p>My primary responsibilities are to design and develop websites, landing pages that help promote RadNet imaging technologies, research and applications that interface with RadNet customers. I am tasked with making improvements to UI, front-end, backend and relevant software engineering aspects to help improve the overall experience of customers utilizing RadNet web services.</p>   
+                <p>Technologies utilized include: HTML5, CSS3/SASS, Bootstrap, JavaScript, JQuery, D3, React, Angular, Node.js, Express, PHP, Drupal 7/8, Wordpress, SQL/APEX, AWS, MongoDB. Strong with Illustrator, Photoshop, Sketch and Figma.  Familiar with SCRUM/Agile methodology, use Kanban style JIRA/Trello for project management. </p>
                 <div>
-                    <strong>Websites Include:</strong>
+                    <p>Work Samples:</p>
                     <div className="grid">{radnetOutput}</div>
                 </div>
+                <ul>
+                    <li>Implemented new stacks on state-of-the-art frameworks like React, Angular to help improve items like page speed, ease of use with websites, security and accessibility</li>
+                    <li>Helped migrate websites from Pantheon to AWS, huge cost savings for company, as well as future proofing using the cloud.</li>
+                </ul>
             </section>
-            <section>
+            <section className="mt-5">
                 <p>
-                    <strong>Web Developer, Budget Van Lines</strong>
+                    <strong>Web Developer, <a href="https://equatemedia.com" target="_blank">Equate Media</a></strong>
                     <br />Los Angeles, California
                     <br />May 2015 - Nov 2016
                 </p>
-                <p>Developed desktop and responsive websites for Budget Van Lines, a moving company in Los Angeles for households and apartments.  Technologies used included Zend, Laravel (on backend) and HTML, CSS, JavaScript, JQuery on frontend.   Additionally worked with JQuery plugins, D3.js, Greensock API, Wordpress and Gulp/Grunt/Bower to make sites more performant and employ better UI.   Worked with tools like Photoshop, Illustrator and Sketch to generate new ideas and landing pages.</p>
+                <p>Developed desktop and responsive for websites like Budget Van Lines (aka Equate Media), a moving company in Los Angeles for households and apartments.  Technologies used included Zend PHP, Wordpress, HTML, CSS, JavaScript, JQuery, Angular 1, React on frontend.   Additionally worked with JQuery plugins, D3.js, Greensock API, Wordpress and Gulp/Grunt/Bower to make sites more performant and employ better UI.   Worked with tools like Photoshop, Illustrator and Sketch to generate new ideas and landing pages.</p>
                 <div>
-                    <strong>Websites Include:</strong>
+                    <p>Work Samples:</p>
                     <div className="grid">{budgetOutput}</div>
                 </div>
                 <ul>
@@ -96,7 +101,7 @@ const ExperiencePage = () => {
                     <li>Used the latest in JQuery and CSS3 Animations to make websites that were fast, performant and interactive for the customer (improvements included custom datepickers, improved cost calculators, Google Maps integration, and less loading time per pages; we improved our page score and rank on Google as a result).</li>
                 </ul>
             </section>
-            <section>
+            <section className="mt-5">
                 <p>
                     <strong>Web Developer, Freelance & Contract Roles</strong>
                     <br />Los Angeles, California
@@ -106,9 +111,9 @@ const ExperiencePage = () => {
                     Worked freelance, contract for companies like <a target="_blank" href="https://www.trafficzoom.com">TrafficZoom</a>, <a target="_blank" href="https://preeninc.com">PreenInc</a>, <a target="_blank" href="https://telescope.tv">Telescope</a>, <a target="_blank" href="https://zachorfoundation.org">Zachor Foundation</a>, <a target="_blank" href="https://vs-corp.com">Verdure Sciences</a> among others.   Stacks worked on included Wordpress for CMS, LAMP (Linux, Apache, MySQL, PHP) for backend development, and JavaScript/JQuery for front-end development.  Began my transition from business development to web development with TrafficZoom, coding small Wordpress sites and social media pages to more robust webpages with Neoganda Agency where I made websites for movies like Grown Ups 2 and Cloudy With A Chance of Meatballs, as well as directly worked on their advertising software website, <a target="_blank" href="https://addroid.com">Addroid</a>.   I also helped create pages for popular shows like The Voice at Telescope, and full websites for Verdure Sciences and PreenInc, an interior design firm for restaurants in Hollywood.
                 </p>
             </section>
-            <section>
+            <section className="mt-5">
                 <p>
-                    <strong>Business Development Manager, The Press-Enterprise</strong>
+                    <strong>Marketing Project Manager, <a href="https://pe.com" target="_blank">The Press-Enterprise | PE.com</a></strong>
                     <br />Riverside, California
                     <br />2005 - 2011
                 </p>
@@ -116,7 +121,7 @@ const ExperiencePage = () => {
                     Worked directly for General Manager of Interactive Media for Digital Advertising.   Was responsible for sales development in online advertising categories such as Automotive, Real Estate, Retail and Classified advertising.  Helped with the strategy and tactics behind the launches of many revenue generating initiatives such as Cars.com with PE.cars for our Automotive category, PE.WOW, a motorcycle, boat and RV publication, PE.homes, PE.jobs,  and PE.buy for Retail shopping.   Duties included forecasting, sales plan and strategy development, creating marketing collateral and designs, infield and outfield sales calls,  sales training, sales assistance, and marketing research with tools like SQL, Excel, Google Analytics.    Helped generate and manage over $12 million in annual sales for PE.com.
                 </p>
             </section>
-            <section>
+            <section className="mt-5">
                 <h3 style={{textAlign:`center`}}>Education</h3>
                 <p>
                     <strong>University of California, Riverside</strong>
@@ -124,7 +129,7 @@ const ExperiencePage = () => {
                     <br />2001 - 2005
                 </p>
             </section>
-            <section>
+            <section className="mt-5">
                 <h3 style={{textAlign:`center`}}>Teaching & Mentorship</h3>
                 <p>
                     <strong><a target="_blank" href="https://javascriptla.net">JavaScriptLA</a></strong>
@@ -132,7 +137,7 @@ const ExperiencePage = () => {
                     <br />2012 - Present
                 </p>
                 <p>Organize and host meetups for JavaScript technologies and frameworks monthly in Los Angeles and Orange County.   Technologies covered include: JavaScript, JQuery, React, Angular, Node.js, AWS, Azure, TypeScript, Docker, MongoDB, NoSQL, and more.  I have personally given talks at JavaScriptLA on Angular, EcmaScript 6, React, and Redux, as well as mentored many attendees through JavaScriptLA on the fundamentals of JavaScript.</p>
-                <h4>Talks/Presentations I Gave</h4>
+                <p>Presentations I Gave</p>
                 <ul>
                     <li><a href="https://www.youtube.com/watch?v=T9xHk8uNjSg&list=PLzVJ4BkY_MBDdsRI9GaKNDq3Gsfv41o14" target="_blank">YouTube Guide To ES6 Playlist</a></li>
                     <li><a href="https://slides.com/javascriptla/guide-to-es6" target="_blank">Guide To ES6 (2020) at Farmers Insurance</a></li>
@@ -141,7 +146,7 @@ const ExperiencePage = () => {
                     <li><a href="https://www.youtube.com/watch?v=CTRke-_WxUM" target="_blank">How To Use React (2015) at General Assembly</a></li>
                 </ul>
             </section>
-            <section>
+            <section className="mt-5">
                 <p>
                     <strong><a target="_blank" href="https://www.thinkful.com">Thinkful</a></strong>
                     <br />Full Stack Web Development Mentor
@@ -149,7 +154,7 @@ const ExperiencePage = () => {
                 </p>
                 <p>Mentored students on the Full Stack Immersion Track with Thinkful and Bloc.com on weeknights and weekends (around 10 hours a week).   The Full Stack Immersion track included HTML, CSS, JavaScript, Github, JQuery, React, Node.js, JWT with Authentication, Data Structures and Algorithms, and preparation for coding interviews.   Was favorably rated high by a majority of my students that I taught at Thinkful mentor sessions.</p>
             </section>
-            <section>
+            <section className="mt-5">
                 <p>
                     <strong><a target="_blank" href="https://generalassemb.ly">General Assembly</a></strong>
                     <br />Front End Web Development (FEWD), Teachers Assistant

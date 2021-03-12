@@ -14,17 +14,13 @@ const IndexPage = () => {
         className="jumbo vaporwave text-center"
         style={{ paddingTop: `150px` }}
       >
-        <h2 className="title">Full Stack Engineer</h2>
+        <h2 className="title">Web Developer</h2>
         <p>
           <span className="vaporwave-text">[ Vijay . Menon ]</span>
         </p>
         <p className="mt-5">
           <a target="_blank" href="https://github.com/vijayxtreme">
             Github
-          </a>{" "}
-          |{" "}
-          <a target="_blank" href="https://twitter.com/vijayxtreme">
-            Twitter
           </a>{" "}
           |{" "}
           <a target="_blank" href="https://linkedin.com/in/vijayxtreme">

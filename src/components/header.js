@@ -2,7 +2,7 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 
-const Header = ({ siteTitle }) => (
+const Header = () => (
   <header className="clearfix" style={{
      backgroundColor: `black`
   }}>
@@ -19,7 +19,7 @@ const Header = ({ siteTitle }) => (
             textDecoration: `none`,
           }}
         >
-          {siteTitle}
+         Vijay Menon | Portfolio
         </Link>
       </h1>
       <ul className="desktop-menu">

@@ -24,9 +24,9 @@ const Header = () => (
       </h1>
       <ul className="desktop-menu">
         <li><Link style={{color:`white`}} to="/">Home</Link></li>
-        <li><Link style={{color:`white`}} to="about">About</Link></li>
-        <li><Link style={{color:`white`}} to="resume">Resume</Link></li>
-        <li><Link style={{color:`white`}} to="contact">Contact</Link></li>
+        <li><Link style={{color:`white`}} to="/about">About</Link></li>
+        <li><Link style={{color:`white`}} to="/resume">Resume</Link></li>
+        <li><Link style={{color:`white`}} to="/contact">Contact</Link></li>
       </ul>
     </div>
   </header>

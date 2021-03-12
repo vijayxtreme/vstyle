@@ -8,7 +8,6 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <section style={{textAlign: `center`}}>
-      <p><img style={{border: `4px solid #ccc`, borderRadius:`100%` }} src={vijayImage} /></p>
       <h2>Vijay Menon</h2>
       <p><strong>Full Stack Developer</strong></p>
       <p><a target="_blank" href="https://github.com/vijayxtreme">Github</a> | <a target="_blank" href="https://twitter.com/vijayxtreme">Twitter</a> | <a target="_blank" href="https://linkedin.com/in/vijayxtreme">LinkedIn</a> | <a target="_blank" href="https://slides.com/javascriptla">Slides.com</a> | <a target="_blank" href="https://javascriptla.net">JavaScriptLA</a> | <a target="_blank" href="https://hackbuddy.com">HackBuddy.com</a></p> 

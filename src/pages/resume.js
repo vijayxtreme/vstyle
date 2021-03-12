@@ -2,6 +2,8 @@ import React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import {Container} from 'react-bootstrap'
+import Breadcrumb from '../components/breadcrumb'
 
 const ExperiencePage = () => {
 
@@ -40,9 +42,7 @@ const ExperiencePage = () => {
         {title:"40not50", link:"40not50.org"},
         {title:"CRC", link:"cancerresearchcollaboration.org"},
         {title:"MSK", link:"msk.radnet.com"},
-        {title:"BreastCare", link:"breastcare.com"},
-        {title:"RadNetPip", link:"pip.radnet.com"},
-        {title:"Imaging Specialists", link:"imagingspecialists.com"},
+        {title:"BreastCare", link:"breastcare.com"}
     ]
 
     const budgetWebsites = [
@@ -59,7 +59,9 @@ const ExperiencePage = () => {
 
     return (
         <Layout>
-            <SEO title="Experience"/>
+            <SEO title="Resume"/>
+            <Breadcrumb title="Resume" />
+            <Container style={{marginTop:`2rem`}}>
             <section>
                 <h2>Download A Resume</h2>
                 <a href="https://docs.google.com/document/d/1ZOmuCrBLP47RVTn4gcDXcm4XkVa3qlF7EtM6sBJOVe0/edit?usp=sharing" target="_blank">Download PDF</a>
@@ -155,6 +157,7 @@ const ExperiencePage = () => {
                 </p>
                 <p>Worked as a teachers’ assistant at General Assembly in Santa Monica, CA for the Front End Web Development (FEWD) course offered 2015-2016.   I helped students learn the fundamentals of HTML, CSS and JavaScript two nights a week, as well as 4 additional office hours another night.   Was favorably rated high by a majority of my students that I taught at General Assembly sessions.</p>
             </section>
+            </Container>
         </Layout>
     )
 }

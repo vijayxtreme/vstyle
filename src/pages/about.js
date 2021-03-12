@@ -3,11 +3,15 @@ import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import {Container} from 'react-bootstrap'
+import Breadcrumb from '../components/breadcrumb'
 
 const AboutPage = () => {
     return (
         <Layout>
         <SEO title="About" />
+        <Breadcrumb title="About" />
+        <Container style={{marginTop:`2rem`}}>
         <section>
             <h3 style={{textAlign:`center`}}>The History of Me</h3>
             <p>I started off my career with a B.A. in Business Economics student from U.C. Riverside.  I worked from 2005 to 2009 in marketing as a project manager for a well reputed newspaper organization.  My coworkers would often tell me stories about how they had “grown” with the newspaper since its humble beginnings and were celebrating their 30th or 40th year anniversary.   This was a company you could grow with.   Yet, an ugly reality was starting to kick in; many of our newest top talent were heading for the door.   Sadly, I began to realize that this wasn’t a company I could grow with, so I began hunting for new work.</p>   
@@ -39,6 +43,7 @@ const AboutPage = () => {
             </ul>
             <p>You can request 1:1 Coaching / Mentorship from me via the <Link to="contact">Contact Page</Link>, and if I have the availability I will definitely help you out.   Sometimes due to workload, there may be a waiting list involved, but I will do my best to help you especially if I hear more about your situation.   Coding can be tough, but it’s fun when you learn with a mentor who can help you fast-track your results!</p>
         </section>
+        </Container>
       </Layout>
     )
 }

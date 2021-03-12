@@ -8,8 +8,6 @@ const Header = ({ siteTitle }) => (
   }}>
     <div
       style={{
-        margin: `0 auto`,
-        maxWidth: 1200,
         padding: `1.45rem 1.0875rem`,
       }}
     >
@@ -27,7 +25,7 @@ const Header = ({ siteTitle }) => (
       <ul className="desktop-menu">
         <li><Link style={{color:`white`}} to="/">Home</Link></li>
         <li><Link style={{color:`white`}} to="about">About</Link></li>
-        <li><Link style={{color:`white`}} to="experience">Experience</Link></li>
+        <li><Link style={{color:`white`}} to="resume">Resume</Link></li>
         <li><Link style={{color:`white`}} to="contact">Contact</Link></li>
       </ul>
     </div>

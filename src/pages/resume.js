@@ -73,7 +73,7 @@ const ExperiencePage = () => {
                 <h2>Download A Resume</h2>
                 <a href="https://docs.google.com/document/d/1ZOmuCrBLP47RVTn4gcDXcm4XkVa3qlF7EtM6sBJOVe0/edit?usp=sharing" target="_blank">Download PDF</a>
             </section>
-            <section>
+            <section className="mt-5">
                 <h3 style={{textAlign:`center`}}>Work Experience</h3>
                 <p>
                     <strong>Web Developer, <a href="https://radnet.com" target="_blank">RadNet.com</a></strong>

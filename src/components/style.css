@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap');
+
 body {
     font-family: "Open Sans";
     font-size: 18px;
@@ -73,4 +75,18 @@ a:hover {
 .vaporwave a:hover {
     color: #FFFB96;
     text-decoration: none;
+}
+
+@media screen and (max-width: 549px){
+    h2.title {
+        font-size: 2rem;
+        letter-spacing: 10px;
+    }
+    .vaporwave-text {
+        font-size: 1.15rem;
+        letter-spacing: 5px;
+    }
+    .breadcrumb {
+        padding-left: 1rem;
+    }
 }

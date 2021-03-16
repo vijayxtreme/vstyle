@@ -11,6 +11,14 @@ h2.title {
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
+a {
+    color: #0389a9;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+
 .jumbo {
   min-height: 493px;
 }
@@ -21,6 +29,32 @@ h2.title {
     border-radius: 0;
     padding: 0;
 }
+
+@keyframes bounce {
+    from { bottom: 0px; }
+    to { bottom: 4px; }
+}
+
+.card:hover {
+    bottom: 4px;
+    animation-name: bounce;
+    animation-duration: 0.15s;
+}
+.card-body {
+    position: relative;
+    background:#696969;
+    border: 0px solid transparent;
+    border-radius: 4px;
+    color: white;
+    text-align:center;
+
+}
+.card-body:hover {
+    background:linear-gradient(97.44deg, #ff71ce 0%, #01cdfe 99.98%);
+    border:0;
+}
+
+
 
 .vaporwave-text {
     font-size: 1.5rem;

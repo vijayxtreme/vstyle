@@ -2,7 +2,7 @@ import React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import {Container} from 'react-bootstrap'
+import {Container, Card} from 'react-bootstrap'
 import Breadcrumb from '../components/breadcrumb'
 
 const ExperiencePage = () => {
@@ -10,17 +10,24 @@ const ExperiencePage = () => {
     let createLayout = arr => {
         let output = []
 
-        arr.forEach((item, idx)=>{
-            if((idx+1) % 4 == 0){
-                output.push(
-                    <div key={idx} className="row"></div>
-                )
-            }else{
-                output.push(
-                    <div className="col-md-4" key={idx}><a target="_blank" href={`https://${item.link}`}>{item.title}</a></div>
-                )
-            }
-        });
+        output = arr.sort((a, b)=>{
+                if(a.title > b.title) {
+                    return 1
+                }else if(a.title < b.title){
+                    return -1
+                }else {
+                    return 0
+                }
+            }).map((item, idx) =>
+                <div className="col-md-4">
+                <Card className="mr-1 mb-4" key={idx}>
+                <a target="_blank" href={`https://${item.link}`}><Card.Body className="">
+                    {item.title}
+                    </Card.Body></a>
+
+                </Card>
+                </div>
+            );
         return output
 
     }

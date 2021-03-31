@@ -1,9 +1,9 @@
 ---
-slug: "/blog/hello-world"
+slug: "/blog/finally-a-blog"
 date: "2020-03-31"
-title: "Hello, World!"
+title: "Finally, a blog"
 ---
-## Finally, a blog
+## Hello, World!
 
 I've been meaning to build a blog for a while, but I always put it off (at least for my own portfolio site).  Priorities, lol.
 

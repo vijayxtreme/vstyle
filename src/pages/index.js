@@ -3,13 +3,13 @@ import { Link } from "gatsby"
 import vijayImage from "../images/vijay.png"
 import Layout from "../components/layout"
 import { Container } from "react-bootstrap"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 
 const IndexPage = () => {
 
   return (
     <Layout>
-      <SEO title="Home" />
+      <Seo title="Home" />
       <section
         className="jumbo vaporwave text-center"
         style={{ paddingTop: `150px` }}
@@ -19,23 +19,23 @@ const IndexPage = () => {
           <span className="vaporwave-text">[ Vijay . Menon ]</span>
         </p>
         <p className="mt-5">
-          <a target="_blank" href="https://github.com/vijayxtreme">
+          <a target="_blank" rel="noreferrer" href="https://github.com/vijayxtreme">
             Github
           </a>{" "}
           |{" "}
-          <a target="_blank" href="https://linkedin.com/in/vijayxtreme">
+          <a target="_blank" rel="noreferrer" href="https://linkedin.com/in/vijayxtreme">
             LinkedIn
           </a>{" "}
           |{" "}
-          <a target="_blank" href="https://slides.com/javascriptla">
+          <a target="_blank" rel="noreferrer" href="https://slides.com/javascriptla">
             Slides.com
           </a>{" "}
           |{" "}
-          <a target="_blank" href="https://javascriptla.net">
+          <a target="_blank" rel="noreferrer" href="https://javascriptla.net">
             JavaScriptLA
           </a>{" "}
           |{" "}
-          <a target="_blank" href="https://hackbuddy.com">
+          <a target="_blank" rel="noreferrer" href="https://hackbuddy.com">
             HackBuddy.com
           </a>
         </p>
@@ -64,7 +64,7 @@ const IndexPage = () => {
             for my last name; it sounds like "Men" -"Inn".{" "}
             <a
               href="https://www.youtube.com/watch?v=daG-0KkirDI"
-              target="_blank"
+              target="_blank" rel="noreferrer"
             >
               "By Mennen!"
             </a>
@@ -75,7 +75,7 @@ const IndexPage = () => {
             languages like PHP and JavaScript. My specialty has been building
             websites using platforms like Wordpress, Drupal, Zend and Django.
             Along the way, I also started a group called{" "}
-            <a target="_blank" href="https://javascriptla.net">
+            <a target="_blank" rel="noreferrer" href="https://javascriptla.net">
               JavaScriptLA
             </a>{" "}
             which helps developers like myself become better with JavaScript

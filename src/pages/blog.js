@@ -1,7 +1,7 @@
 import React from 'react'
-import SEO from '../components/SEO'
+import Seo from '../components/seo'
 import Breadcrumb from '../components/breadcrumb'
-import Layout from '../components/Layout'
+import Layout from '../components/layout'
 import {Container} from "react-bootstrap"
 import {Link, graphql} from 'gatsby'
 
@@ -11,7 +11,7 @@ const Blog = ({data}) => {
     console.log(nodes)
     return (
         <Layout>
-            <SEO title="Blog" />
+            <Seo title="Blog" />
             <Breadcrumb title="Blog" />
             <div className="blog-home mb-5 pb-5">
                 <Container>

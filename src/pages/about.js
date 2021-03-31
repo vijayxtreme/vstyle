@@ -2,21 +2,21 @@ import React from "react"
 import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 import {Container} from 'react-bootstrap'
 import Breadcrumb from '../components/breadcrumb'
 
 const AboutPage = () => {
     return (
         <Layout>
-        <SEO title="About" />
+        <Seo title="About" />
         <Breadcrumb title="About" />
         <Container style={{marginTop:`2rem`}}>
         <section>
             <h3 style={{textAlign:`center`}}>The History of Me</h3>
             <p>I started off my career with a B.A. in Business Economics student from U.C. Riverside.  I worked from 2005 to 2009 in marketing as a project manager for a well reputed newspaper organization.  My coworkers would often tell me stories about how they had “grown” with the newspaper since its humble beginnings and were celebrating their 30th or 40th year anniversary.   This was a company you could grow with.   Yet, an ugly reality was starting to kick in; many of our newest top talent were heading for the door.   Sadly, I began to realize that this wasn’t a company I could grow with, so I began hunting for new work.</p>   
 
-            <p>Unfortunately the economy crashed around 2008, and thereafter I could barely find anything else to jump to.  Afraid of getting laid off, I decided to take whatever I could get, even if it meant a pay-cut, to at least learn new and valuable skills.   I worked again in marketing at another job, but this time picking up Wordpress skills and eventually learning to code.  Yet, my boss and many bosses after did not take me seriously as a coder, and I was forced to keep searching for work.   Many times, I questioned why I left my newspaper job; but I decided for myself that I wanted to grow with my “skills”, rather than grow with a limited set of skills offered by a company: unless that company was also growing its skills as well.   This faith in myself and the work ahead made me not just a better off and stronger programmer, but also a better off and stronger person with great work ethic and intuition for how to succeed for the long haul.   It’s hard, but keep the faith and you’ll make it through anything.   Still interested in more deets?  Read my full story at: <a href="https://javascriptla.net/blog/what-it-feels-like-to-be-a-developer-in-2020-my-story/" target="_blank">https://javascriptla.net/blog/what-it-feels-like-to-be-a-developer-in-2020-my-story/</a>.</p>
+            <p>Unfortunately the economy crashed around 2008, and thereafter I could barely find anything else to jump to.  Afraid of getting laid off, I decided to take whatever I could get, even if it meant a pay-cut, to at least learn new and valuable skills.   I worked again in marketing at another job, but this time picking up Wordpress skills and eventually learning to code.  Yet, my boss and many bosses after did not take me seriously as a coder, and I was forced to keep searching for work.   Many times, I questioned why I left my newspaper job; but I decided for myself that I wanted to grow with my “skills”, rather than grow with a limited set of skills offered by a company: unless that company was also growing its skills as well.   This faith in myself and the work ahead made me not just a better off and stronger programmer, but also a better off and stronger person with great work ethic and intuition for how to succeed for the long haul.   It’s hard, but keep the faith and you’ll make it through anything.   Still interested in more deets?  Read my full story at: <a href="https://javascriptla.net/blog/what-it-feels-like-to-be-a-developer-in-2020-my-story/" target="_blank" rel="noreferrer">https://javascriptla.net/blog/what-it-feels-like-to-be-a-developer-in-2020-my-story/</a>.</p>
         </section>
         <section>
             <h3 style={{textAlign:`center`}}>What Do I Do For Fun?</h3>
@@ -30,16 +30,16 @@ const AboutPage = () => {
         </section>
         <section>
             <h3 style={{textAlign:`center`}}>Learn To Code With Me!</h3>
-            <p>Are you interested in becoming a better web developer?  Do you want to LEVEL UP YOUR PROGRAMMING SKILLS?   Come join myself, and thousands of other members at <a href="https://javascriptla.net" target="_blank">JavaScriptLA</a>, a meetup group originally in Southern California, but now available ONLINE to everyone around the world. </p>
-            <p>All you have to do is sign up to join our mailing list on the <a href="https://javascriptla.net" target="_blank">JavaScriptLA</a> homepage, and we will then send you emails on the latest meetup announcements.   You can join us via the web link we send out to our attendees (normally Zoom, WebEx or Google Meet), and basically like a real meetup, watch, interact and raise your hand to ask questions.   We also chat regularly with each other to discuss new technologies (since JavaScript is always moving at breakneck speeds) on <a href="https://discord.gg/WMBTHXx" target="_blank">Discord</a> and <a href="http://javascriptla.herokuapp.com/" target="_blank">Slack</a>.</p>  
-            <p>I personally offer tutorials through <a href="https://javascriptla.net/blog/guide-to-react-part-i/" target="_blank">blog posts</a>, <a href="https://meetup.com/javascriptla" target="_blank">meetups</a>, <a href="https://slides.com/javascriptla" target="_blank">Slides.com</a>, books on <a href="https://amzn.to/2RC91AX" target="_blank">Amazon</a>, <a href="https://hackbuddy.teachable.com/p/roadmap-to-es6" target="_blank">Teachable</a>, <a href="https://youtube.com/javascriptla" target="_blank">YouTube</a>, and am around for 1:1 Coaching / Mentorship. </p>
+            <p>Are you interested in becoming a better web developer?  Do you want to LEVEL UP YOUR PROGRAMMING SKILLS?   Come join myself, and thousands of other members at <a href="https://javascriptla.net" target="_blank" rel="noreferrer">JavaScriptLA</a>, a meetup group originally in Southern California, but now available ONLINE to everyone around the world. </p>
+            <p>All you have to do is sign up to join our mailing list on the <a href="https://javascriptla.net" target="_blank" rel="noreferrer">JavaScriptLA</a> homepage, and we will then send you emails on the latest meetup announcements.   You can join us via the web link we send out to our attendees (normally Zoom, WebEx or Google Meet), and basically like a real meetup, watch, interact and raise your hand to ask questions.   We also chat regularly with each other to discuss new technologies (since JavaScript is always moving at breakneck speeds) on <a href="https://discord.gg/WMBTHXx" target="_blank" rel="noreferrer">Discord</a> and <a href="http://javascriptla.herokuapp.com/" target="_blank" rel="noreferrer">Slack</a>.</p>  
+            <p>I personally offer tutorials through <a href="https://javascriptla.net/blog/guide-to-react-part-i/" target="_blank" rel="noreferrer">blog posts</a>, <a href="https://meetup.com/javascriptla" target="_blank" rel="noreferrer">meetups</a>, <a href="https://slides.com/javascriptla" target="_blank" rel="noreferrer">Slides.com</a>, books on <a href="https://amzn.to/2RC91AX" target="_blank" rel="noreferrer">Amazon</a>, <a href="https://hackbuddy.teachable.com/p/roadmap-to-es6" target="_blank" rel="noreferrer">Teachable</a>, <a href="https://youtube.com/javascriptla" target="_blank" rel="noreferrer">YouTube</a>, and am around for 1:1 Coaching / Mentorship. </p>
             <h4>Here Are Some Talks/Presentations I've Given Over The Years</h4>
             <ul>
-                <li><a href="https://www.youtube.com/watch?v=T9xHk8uNjSg&list=PLzVJ4BkY_MBDdsRI9GaKNDq3Gsfv41o14" target="_blank">YouTube Guide To ES6 Playlist</a></li>
-                <li><a href="https://slides.com/javascriptla/guide-to-es6" target="_blank">Guide To ES6 (2020) at Farmers Insurance</a></li>
-                <li><a href="https://slides.com/javascriptla/deck" target="_blank">Angular Deep Dive (2019) at Farmers Insurance</a></li>
-                <li><a href="https://slides.com/javascriptla/react-redux" target="_blank">Intro to React & Redux</a></li>
-                <li><a href="https://www.youtube.com/watch?v=CTRke-_WxUM" target="_blank">How To Use React (2015) at General Assembly</a></li>
+                <li><a href="https://www.youtube.com/watch?v=T9xHk8uNjSg&list=PLzVJ4BkY_MBDdsRI9GaKNDq3Gsfv41o14" target="_blank" rel="noreferrer">YouTube Guide To ES6 Playlist</a></li>
+                <li><a href="https://slides.com/javascriptla/guide-to-es6" target="_blank" rel="noreferrer">Guide To ES6 (2020) at Farmers Insurance</a></li>
+                <li><a href="https://slides.com/javascriptla/deck" target="_blank" rel="noreferrer">Angular Deep Dive (2019) at Farmers Insurance</a></li>
+                <li><a href="https://slides.com/javascriptla/react-redux" target="_blank" rel="noreferrer">Intro to React & Redux</a></li>
+                <li><a href="https://www.youtube.com/watch?v=CTRke-_WxUM" target="_blank" rel="noreferrer">How To Use React (2015) at General Assembly</a></li>
             </ul>
             <p>You can request 1:1 Coaching / Mentorship from me via the <Link to="contact">Contact Page</Link>, and if I have the availability I will definitely help you out.   Sometimes due to workload, there may be a waiting list involved, but I will do my best to help you especially if I hear more about your situation.   Coding can be tough, but it’s fun when you learn with a mentor who can help you fast-track your results!</p>
         </section>

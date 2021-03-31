@@ -1,7 +1,7 @@
 import React from "react"
 
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 import {Container, Card} from 'react-bootstrap'
 import Breadcrumb from '../components/breadcrumb'
 
@@ -21,7 +21,7 @@ const ExperiencePage = () => {
             }).map((item, idx) =>
                 <div className="col-md-4">
                 <Card className="mr-1 mb-4" key={idx}>
-                <a target="_blank" href={`https://${item.link}`}><Card.Body className="">
+                <a target="_blank" rel="noreferrer" href={`https://${item.link}`}><Card.Body className="">
                     {item.title}
                     </Card.Body></a>
 
@@ -66,21 +66,21 @@ const ExperiencePage = () => {
 
     return (
         <Layout>
-            <SEO title="Resume"/>
+            <Seo title="Resume"/>
             <Breadcrumb title="Resume" />
             <Container style={{marginTop:`2rem`}}>
             <section>
                 <h2>Download A Resume</h2>
-                <a href="https://docs.google.com/document/d/1ZOmuCrBLP47RVTn4gcDXcm4XkVa3qlF7EtM6sBJOVe0/edit?usp=sharing" target="_blank">Download PDF</a>
+                <a href="https://docs.google.com/document/d/1ZOmuCrBLP47RVTn4gcDXcm4XkVa3qlF7EtM6sBJOVe0/edit?usp=sharing" target="_blank" rel="noreferrer">Download PDF</a>
             </section>
             <section className="mt-5">
                 <h3 style={{textAlign:`center`}}>Work Experience</h3>
                 <p>
-                    <strong>Web Developer, <a href="https://radnet.com" target="_blank">RadNet.com</a></strong>
+                    <strong>Web Developer, <a href="https://radnet.com" target="_blank" rel="noreferrer">RadNet.com</a></strong>
                     <br />Orange County, California
                     <br />Nov 2016 - Present
                 </p>
-                <p>Responsible for full stack web development for <a href="https://radnet.com" target="_blank">RadNet</a> (NYSE: <a href="https://finance.yahoo.com/quote/RDNT" target="_blank">RDNT</a>) (Diagnostic imaging centers and research) in Santa Ana, California.</p>
+                <p>Responsible for full stack web development for <a href="https://radnet.com" target="_blank" rel="noreferrer">RadNet</a> (NYSE: <a href="https://finance.yahoo.com/quote/RDNT" target="_blank" rel="noreferrer">RDNT</a>) (Diagnostic imaging centers and research) in Santa Ana, California.</p>
                 <p>My primary responsibilities are to design and develop websites, landing pages that help promote RadNet imaging technologies, research and applications that interface with RadNet customers. I am tasked with making improvements to UI, front-end, backend and relevant software engineering aspects to help improve the overall experience of customers utilizing RadNet web services.</p>   
                 <p>Technologies utilized include: HTML5, CSS3/SASS, Bootstrap, JavaScript, JQuery, D3, React, Angular, Node.js, Express, PHP, Drupal 7/8, Wordpress, SQL/APEX, AWS, MongoDB. Strong with Illustrator, Photoshop, Sketch and Figma.  Familiar with SCRUM/Agile methodology, use Kanban style JIRA/Trello for project management. </p>
                 <div>
@@ -94,7 +94,7 @@ const ExperiencePage = () => {
             </section>
             <section className="mt-5">
                 <p>
-                    <strong>Web Developer, <a href="https://equatemedia.com" target="_blank">Equate Media</a></strong>
+                    <strong>Web Developer, <a href="https://equatemedia.com" target="_blank" rel="noreferrer">Equate Media</a></strong>
                     <br />Los Angeles, California
                     <br />May 2015 - Nov 2016
                 </p>
@@ -115,12 +115,12 @@ const ExperiencePage = () => {
                     <br />2011 - 2014
                 </p>
                 <p>
-                    Worked freelance, contract for companies like <a target="_blank" href="https://www.trafficzoom.com">TrafficZoom</a>, <a target="_blank" href="https://preeninc.com">PreenInc</a>, <a target="_blank" href="https://telescope.tv">Telescope</a>, <a target="_blank" href="https://zachorfoundation.org">Zachor Foundation</a>, <a target="_blank" href="https://vs-corp.com">Verdure Sciences</a> among others.   Stacks worked on included Wordpress for CMS, LAMP (Linux, Apache, MySQL, PHP) for backend development, and JavaScript/JQuery for front-end development.  Began my transition from business development to web development with TrafficZoom, coding small Wordpress sites and social media pages to more robust webpages with Neoganda Agency where I made websites for movies like Grown Ups 2 and Cloudy With A Chance of Meatballs, as well as directly worked on their advertising software website, <a target="_blank" href="https://addroid.com">Addroid</a>.   I also helped create pages for popular shows like The Voice at Telescope, and full websites for Verdure Sciences and PreenInc, an interior design firm for restaurants in Hollywood.
+                    Worked freelance, contract for companies like <a target="_blank" rel="noreferrer" href="https://www.trafficzoom.com">TrafficZoom</a>, <a target="_blank" rel="noreferrer" href="https://preeninc.com">PreenInc</a>, <a target="_blank" rel="noreferrer" href="https://telescope.tv">Telescope</a>, <a target="_blank" rel="noreferrer" href="https://zachorfoundation.org">Zachor Foundation</a>, <a target="_blank" rel="noreferrer" href="https://vs-corp.com">Verdure Sciences</a> among others.   Stacks worked on included Wordpress for CMS, LAMP (Linux, Apache, MySQL, PHP) for backend development, and JavaScript/JQuery for front-end development.  Began my transition from business development to web development with TrafficZoom, coding small Wordpress sites and social media pages to more robust webpages with Neoganda Agency where I made websites for movies like Grown Ups 2 and Cloudy With A Chance of Meatballs, as well as directly worked on their advertising software website, <a target="_blank" rel="noreferrer" href="https://addroid.com">Addroid</a>.   I also helped create pages for popular shows like The Voice at Telescope, and full websites for Verdure Sciences and PreenInc, an interior design firm for restaurants in Hollywood.
                 </p>
             </section>
             <section className="mt-5">
                 <p>
-                    <strong>Marketing Project Manager, <a href="https://pe.com" target="_blank">The Press-Enterprise | PE.com</a></strong>
+                    <strong>Marketing Project Manager, <a href="https://pe.com" target="_blank" rel="noreferrer">The Press-Enterprise | PE.com</a></strong>
                     <br />Riverside, California
                     <br />2005 - 2011
                 </p>
@@ -139,23 +139,23 @@ const ExperiencePage = () => {
             <section className="mt-5">
                 <h3 style={{textAlign:`center`}}>Teaching & Mentorship</h3>
                 <p>
-                    <strong><a target="_blank" href="https://javascriptla.net">JavaScriptLA</a></strong>
+                    <strong><a target="_blank" rel="noreferrer" href="https://javascriptla.net">JavaScriptLA</a></strong>
                     <br />Head Organizer
                     <br />2012 - Present
                 </p>
                 <p>Organize and host meetups for JavaScript technologies and frameworks monthly in Los Angeles and Orange County.   Technologies covered include: JavaScript, JQuery, React, Angular, Node.js, AWS, Azure, TypeScript, Docker, MongoDB, NoSQL, and more.  I have personally given talks at JavaScriptLA on Angular, EcmaScript 6, React, and Redux, as well as mentored many attendees through JavaScriptLA on the fundamentals of JavaScript.</p>
                 <p>Presentations I Gave</p>
                 <ul>
-                    <li><a href="https://www.youtube.com/watch?v=T9xHk8uNjSg&list=PLzVJ4BkY_MBDdsRI9GaKNDq3Gsfv41o14" target="_blank">YouTube Guide To ES6 Playlist</a></li>
-                    <li><a href="https://slides.com/javascriptla/guide-to-es6" target="_blank">Guide To ES6 (2020) at Farmers Insurance</a></li>
-                    <li><a href="https://slides.com/javascriptla/deck" target="_blank">Angular Deep Dive (2019) at Farmers Insurance</a></li>
-                    <li><a href="https://slides.com/javascriptla/react-redux" target="_blank">Intro to React & Redux</a></li>
-                    <li><a href="https://www.youtube.com/watch?v=CTRke-_WxUM" target="_blank">How To Use React (2015) at General Assembly</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=T9xHk8uNjSg&list=PLzVJ4BkY_MBDdsRI9GaKNDq3Gsfv41o14" target="_blank" rel="noreferrer">YouTube Guide To ES6 Playlist</a></li>
+                    <li><a href="https://slides.com/javascriptla/guide-to-es6" target="_blank" rel="noreferrer">Guide To ES6 (2020) at Farmers Insurance</a></li>
+                    <li><a href="https://slides.com/javascriptla/deck" target="_blank" rel="noreferrer">Angular Deep Dive (2019) at Farmers Insurance</a></li>
+                    <li><a href="https://slides.com/javascriptla/react-redux" target="_blank" rel="noreferrer">Intro to React & Redux</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=CTRke-_WxUM" target="_blank" rel="noreferrer">How To Use React (2015) at General Assembly</a></li>
                 </ul>
             </section>
             <section className="mt-5">
                 <p>
-                    <strong><a target="_blank" href="https://www.thinkful.com">Thinkful</a></strong>
+                    <strong><a target="_blank" rel="noreferrer" href="https://www.thinkful.com">Thinkful</a></strong>
                     <br />Full Stack Web Development Mentor
                     <br />2019 - 2020
                 </p>
@@ -163,7 +163,7 @@ const ExperiencePage = () => {
             </section>
             <section className="mt-5">
                 <p>
-                    <strong><a target="_blank" href="https://generalassemb.ly">General Assembly</a></strong>
+                    <strong><a target="_blank" rel="noreferrer" href="https://generalassemb.ly">General Assembly</a></strong>
                     <br />Front End Web Development (FEWD), Teachers Assistant
                     <br />2015 - 2016
                 </p>

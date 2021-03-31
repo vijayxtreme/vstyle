@@ -1,7 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 import { Container } from "react-bootstrap"
 import Breadcrumb from '../components/breadcrumb'
 
@@ -9,7 +9,7 @@ import Breadcrumb from '../components/breadcrumb'
 const ContactPage = () => {
   return (
     <Layout>
-      <SEO title="Contact" />
+      <Seo title="Contact" />
       <Breadcrumb title="Contact" />
       <Container style={{ marginTop: `2rem` }}>
         <section>
@@ -22,11 +22,11 @@ const ContactPage = () => {
             messages from visitors of my website. This is to help fight against
             spam, unwarranted email and unsolicited notices. You can message me
             about{" "}
-            <a target="_blank" href="https://javascriptla.net">
+            <a target="_blank" rel="noreferrer" href="https://javascriptla.net">
               JavaScriptLA
             </a>
             ,{" "}
-            <a href="https://www.hackbuddy.com" target="_blank">
+            <a href="https://www.hackbuddy.com" target="_blank" rel="noreferrer">
               HackBuddy
             </a>{" "}
             for sponsorships, but it’s probably better if you visit the websites
@@ -45,19 +45,19 @@ const ContactPage = () => {
             could be a handful of many different things including me turning off
             my email for a while to focus. Simply just reach out again or try to
             reach me another way;{" "}
-            <a target="_blank" href="https://linkedin.com/in/vijayxtreme">
+            <a target="_blank" rel="noreferrer" href="https://linkedin.com/in/vijayxtreme">
               Linkedin
             </a>{" "}
             is good, as well as chat — I’m usually active on{" "}
-            <a target="_blank" href="https://javascriptla.net">
+            <a target="_blank" rel="noreferrer" href="https://javascriptla.net">
               JavaScriptLA
             </a>
             ’s chat servers (
-            <a href="http://javascriptla.herokuapp.com/" target="_blank">
+            <a href="http://javascriptla.herokuapp.com/" target="_blank" rel="noreferrer">
               Slack
             </a>{" "}
             and{" "}
-            <a target="_blank" href="https://discord.gg/WMBTHXx">
+            <a target="_blank" rel="noreferrer" href="https://discord.gg/WMBTHXx">
               Discord
             </a>
             ). Short messages are usually the best, as I prefer that to writing
@@ -70,37 +70,37 @@ const ContactPage = () => {
           </h3>
           <p>
             By all means, reach out. You can probably get ahold of me faster via{" "}
-            <a target="_blank" href="https://linkedin.com/in/vijayxtreme">
+            <a target="_blank" rel="noreferrer" href="https://linkedin.com/in/vijayxtreme">
               LinkedIn
             </a>
             , though I would encourage you to check out{" "}
-            <a target="_blank" href="https://javascriptla.net">
+            <a target="_blank" rel="noreferrer" href="https://javascriptla.net">
               JavaScriptLA
             </a>{" "}
             to network with myself and the group, or visit{" "}
-            <a target="_blank" href="https://hackbuddy.com">
+            <a target="_blank" rel="noreferrer" href="https://hackbuddy.com">
               HackBuddy.com
             </a>{" "}
             (my other website for training in fullstack web development).
           </p>
           <p>
             I also blog quite often on{" "}
-            <a target="_blank" href="https://javascriptla.net/">
+            <a target="_blank" rel="noreferrer" href="https://javascriptla.net/">
               JavaScriptLA
             </a>{" "}
             and{" "}
-            <a target="_blank" href="https://hackbuddy.com">
+            <a target="_blank" rel="noreferrer" href="https://hackbuddy.com">
               HackBuddy
             </a>
             , as well as vlog for the{" "}
-            <a target="_blank" href="https://youtube.com/javascriptla">
+            <a target="_blank" rel="noreferrer" href="https://youtube.com/javascriptla">
               JavaScriptLA YouTube Channel
             </a>{" "}
             which you can follow as well for video content. Due to time
             constraints, I have limited personal 1:1 mentorship to only a
             handful of students, and am the moment only helping those who{" "}
             <a
-              target="_blank"
+              target="_blank" rel="noreferrer"
               href="https://javascriptla.net/volunteer-with-us/"
             >
               volunteer for JavaScriptLA

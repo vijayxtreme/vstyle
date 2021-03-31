@@ -1,5 +1,5 @@
 import React from "react"
-import SEO from "../components/SEO"
+import Seo from "../components/seo"
 import Layout from "../components/layout"
 import Breadcrumb from "../components/breadcrumb"
 import {Container} from "react-bootstrap"
@@ -15,7 +15,7 @@ export default function Template({
   const pageTitle = capitalizeFirstLetters(frontmatter.title)
   return (
     <Layout>
-      <SEO title={`Blog | ${pageTitle}`} />
+      <Seo title={`Blog | ${pageTitle}`} />
       <Breadcrumb title="Blog" link="blog" subtitle={pageTitle} />
       <Container>
       <div className="blog">

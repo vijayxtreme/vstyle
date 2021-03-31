@@ -1,9 +1,11 @@
 import React from 'react'
+import {Link} from 'gatsby'
 
-const Breadcrumb = ({title=""}) => {
+const Breadcrumb = ({title="", link, subtitle=""}) => {
+    console.log(link)
     return (
         <section className="vaporwave breadcrumb">
-            <h3 style={{fontWeight: `300`}}><a href="/">Home</a> / {title}</h3>
+            <h3 style={{fontWeight: `300`}}><Link to="/">Home</Link> / {link ? <Link to={`/${link}`}>{title}</Link> : title}{subtitle ? ` / ${subtitle}`: ''}</h3>
         </section>
     )
 }

@@ -13,6 +13,7 @@ import Header from "./header"
 import "bootstrap/dist/css/bootstrap.min.css"
 import "./layout.css"
 import "./style.css"
+import "../sass/index.scss"
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -31,7 +32,7 @@ const Layout = ({ children }) => {
       <div>
         <main>{children}</main>
         <footer className="text-center pt-2 pb-5" style={{fontSize:`0.7rem`}}>
-          © {new Date().getFullYear()}, 
+          Copyright © {new Date().getFullYear()}, 
           {` `}
           Vijay Menon
         </footer>

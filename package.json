@@ -5,6 +5,7 @@
   "version": "0.1.0",
   "author": "Vijay Menon <vijaymenonx@gmail.com>",
   "dependencies": {
+    "@deckdeckgo/highlight-code": "^2.5.1",
     "bootstrap": "^4.6.0",
     "gatsby": "^3.0.0",
     "gatsby-image": "^3.2.0",
@@ -13,7 +14,9 @@
     "gatsby-plugin-react-helmet": "^4.2.0",
     "gatsby-plugin-sass": "^4.2.0",
     "gatsby-plugin-sharp": "^2.5.3",
+    "gatsby-remark-highlight-code": "^2.2.0",
     "gatsby-source-filesystem": "^3.2.0",
+    "gatsby-source-imgur-gallery-albums": "^0.1.12",
     "gatsby-transformer-remark": "^3.2.0",
     "gatsby-transformer-sharp": "^3.2.0",
     "prop-types": "^15.7.2",

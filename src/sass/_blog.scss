@@ -5,12 +5,21 @@
     small {
         font-style: italic;
     }
-    blockquote {
+    .note {
 
         background-color: #e6edc98a;
         margin-top: 2rem;
         margin-bottom: 2rem;
         padding:5px 10px;
 
+    }
+    %center {
+        margin-left:auto !important;
+        margin-right:auto !important;
+     
+    }
+    .emb-img {
+        margin-top:4rem;
+        margin-bottom: 4rem;
     }
 }

@@ -31,7 +31,7 @@ const Layout = ({ children }) => {
       <Header siteTitle={data.site.siteMetadata.title} />
       <div>
         <main>{children}</main>
-        <footer className="text-center pt-2 pb-5" style={{fontSize:`0.7rem`}}>
+        <footer className="text-center pt-4 pb-4" style={{fontSize:`0.7rem`}}>
           Copyright © {new Date().getFullYear()}, 
           {` `}
           Vijay Menon

@@ -3,7 +3,9 @@ import Seo from "../components/seo"
 import Layout from "../components/layout"
 import Breadcrumb from "../components/breadcrumb"
 import {Container} from "react-bootstrap"
-import { graphql } from "gatsby"
+import { graphql, Link } from "gatsby"
+import { defineCustomElements as deckDeckGoHighlightElement } from '@deckdeckgo/highlight-code/dist/loader';
+deckDeckGoHighlightElement();
 
 const capitalizeFirstLetters = (text) => text.split(" ").map(word => word.substr(0,1).toUpperCase() + word.substr(1)).join(" ")
 
@@ -22,6 +24,7 @@ export default function Template({
         <div className="blog-post mt-5">
           <h1 className="text-center">{frontmatter.title}</h1>
           <small>{frontmatter.date}</small>
+          <p className="mt-4"><Link to="/blog">&larr; Back</Link></p>
           <div
             className="blog-post-content mt-5 mb-5 pb-5"
             dangerouslySetInnerHTML={{ __html: html }}

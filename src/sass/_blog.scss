@@ -1,28 +1,27 @@
 .blog {
-    h1,h2,h3,h4,h5,h6 {
-        text-transform: capitalize;
-    }
-    small {
-        font-style: italic;
-    }
-    .note {
-
-        background-color: #e6edc98a;
-        margin-top: 2rem;
-        margin-bottom: 2rem;
-        padding:5px 10px;
-
-    }
-    %center {
-        margin-left:auto !important;
-        margin-right:auto !important;
-     
-    }
-    .emb-img {
-        margin-top:4rem;
-        margin-bottom: 4rem;
-    }
-    pre,code {
-        white-space: normal !important;
-    }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    text-transform: capitalize;
+  }
+  small {
+    font-style: italic;
+  }
+  .note {
+    background-color: #e6edc98a;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 5px 10px;
+  }
+  %center {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  .emb-img {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+  }
 }

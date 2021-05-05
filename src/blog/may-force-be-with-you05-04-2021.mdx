@@ -1,15 +1,77 @@
 ---
 slug: "/blog/may-the-fourth"
-date: "2020-04-30"
-title: "May the 4th"
+date: "2020-05-04"
+title: "Styled Components, Adding MDX support"
 ---
 
 import Header from "../components/Header";
+import styled from "styled-components";
 
-## May the fourth be with you.
+## By the way, May the fourth be with you.
+
+Just a quick update a little after work today. I've been spending a lot of time at my new job learning the ropes and getting acquainted with various technologies.
+
+I am really digging [Styled Components](https://styled-components.com/). This library makes it so you don't have to spend a lot of time writing out "dumb components" like below:
 
 ```jsx
-<Header />
+import './header.css'
+
+export function Header() {
+  return <header style={{ `background`: `blue` }}>This is my header lol</header>;
+}
 ```
 
-<Header />
+vs
+
+```jsx
+import styled from "styled-components";
+
+export const Header = styled.header`
+  background: blue;
+`;
+```
+
+When you start writing lots of dumb components, you will greatly see the benefit of using styled components -- they are just faster to create and house all related CSS rules.
+
+I feel like Styled Components are a game changer, in the same way that SASS was a game changer for CSS. It just feels so much easier to write using Styled Components than writing a SASS file and a dumb component React file in two separate files (like I've normally been used to).
+
+To get started with Styled Components, simply just add them to your React project (usually `npx create-react-app <myproject>`), with your favorite package manager, e.g. `npm` or `yarn`.
+
+```sh 
+$ npx create-react-app <my-project>
+$ npm install styled-components
+```
+
+For an example of usage, see below.
+
+## Upgrading this blog to MDX
+
+Initially I was using Gatsby Transformer Remark as a plugin to read all the markdown files that I write up in this blog (and ultimately output them to HTML).
+
+Since that time, I've been hearing a lot about MDX files, which are essentially Markdown files that support JSX syntax. That means you can also import React components into your Markdown files similar to HTML and output stuff for display. For example, here's some code for a button:
+
+```jsx
+import styled from 'styled-components'
+
+const Button = styled.button`
+  background: aquamarine;
+  border-radius: 3px;
+  margin: 0 1em;
+  padding: 0.25em 1em;
+`;
+```
+
+export const Button = styled.button`
+  background: ${({ bgColor }) => bgColor ?? `purple`};
+  border-radius: 8px;
+  border: 0px;
+  padding: 0.25em 1em;
+`;
+
+<Button bgColor="palevioletred" onClick={()=>alert(`Y halo thar`)}>I'm a button</Button>
+
+## Conclusion
+
+That's basically it -- just wanted to talk about Styled Components and MDX since they are super cool.  Use them!  Stay tuned for some posts about testing, and oh yah -- if you want to code together on some projects, check out what my group, [Team Hack](https://github.com/team-hack/meetings/blob/main/meeting-5-11-21.md) is up to.  We have some open source code projects in works that you can join and probably use React and Styled Components on.
+
+🚀 See you at the next meetup!

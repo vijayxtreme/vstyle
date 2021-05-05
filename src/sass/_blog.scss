@@ -25,3 +25,11 @@
     margin-bottom: 4rem;
   }
 }
+
+@media screen and (max-width: 720px) {
+  .blog {
+    iframe {
+      width: 100%;
+    }
+  }
+}

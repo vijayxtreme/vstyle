@@ -47,7 +47,11 @@ For an example of usage, see below.
 
 Initially I was using Gatsby Transformer Remark as a plugin to read all the markdown files that I write up in this blog (and ultimately output them to HTML).
 
-Since that time, I've been hearing a lot about MDX files, which are essentially Markdown files that support JSX syntax. That means you can also import React components into your Markdown files similar to HTML and output stuff for display. For example, here's some code for a button:
+Since that time, I've been hearing a lot about MDX files, which are essentially Markdown files that support JSX syntax. So I added in a Gatsby plugin for [MDX support](https://www.gatsbyjs.com/plugins/gatsby-plugin-mdx/?=mdx) and also a new syntax highlighter using [PrismJS React](https://github.com/FormidableLabs/prism-react-renderer#theming).  
+
+🕹 (By the way, the next step is to allow some of this code to be editable using [React Live](https://github.com/FormidableLabs/react-live) which is pretty awesome -- so all of you can play around with the code here and see it change on the fly.  Kudos to [FormidableLabs](https://formidable.com/) for making such awesome packages!) 
+
+That means you can also import React components into your Markdown files similar to HTML and output stuff for display. For example, here's some code for a button:
 
 ```jsx
 import styled from 'styled-components'
@@ -57,6 +61,8 @@ const Button = styled.button`
   border-radius: 3px;
   margin: 0 1em;
   padding: 0.25em 1em;
+  margin-top: 1em;
+  margin-bottom: 2em;
 `;
 ```
 
@@ -65,6 +71,8 @@ export const Button = styled.button`
   border-radius: 8px;
   border: 0px;
   padding: 0.25em 1em;
+  margin-top: 1em;
+  margin-bottom: 2em;
 `;
 
 <Button bgColor="palevioletred" onClick={()=>alert(`Y halo thar`)}>I'm a button</Button>

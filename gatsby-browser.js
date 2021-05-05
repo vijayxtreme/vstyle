@@ -1,7 +1,7 @@
 import React from "react";
 import { MDXProvider } from "@mdx-js/react";
 import Highlight, { defaultProps } from "prism-react-renderer";
-require("prismjs/themes/prism-tomorrow.css");
+require("prismjs/themes/prism-funky.css");
 
 /* eslint-disable */
 const component = {
